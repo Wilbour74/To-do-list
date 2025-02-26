@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tasks.css">
+    <title>Document</title>
+</head>
+<body>
+    <button id="logoutBtn">Déconnexion</button>
+    <form>
+        <h1>Ajouter une tâche</h1>
+        <input type="text" name="nom" placeholder="Nom de la tache">
+        <textarea placeholder="description" name="description"></textarea>
+        <input type="date" name="deadline">
+        <button>Valider</button>
+    </form>
+
+        <h1>Recherchez vos taches</h1>
+        <input type="text" name="search">
+    <h1>Tâches en cours</h1>
+    <div id="taskContainer"></div>
+    
+    <h1>Tâches complétées</h1>
+    <div id="completedTaskContainer"></div>
+    </div>
+    <script src="tasks.js"></script>
+</body>
+</html>
